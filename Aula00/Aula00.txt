@@ -1,0 +1,8 @@
+R1- Porque os dados ficam guardados na memória do servidor, e não em um banco de dados permanente.
+R2- Usamos o método POST e devolvemos o status 201 Created.
+R3- 400 indica uma requisição inválida; 404 indica que o recurso não foi encontrado.
+R4- A chave primária (PRIMARY KEY) impede que dois lanches tenham o mesmo id.
+R5- A API continua usando a mesma rota, mas os dados passam a vir do banco de dados.
+R6- Serve para relacionar o pedido ao cliente que o realizou.
+R7- Não. É necessário validar a identidade do usuário e verificar se ele tem permissão para aprovar o pedido.
+R8- Senhas, pois devem ser armazenadas com hash, nunca em texto puro.
